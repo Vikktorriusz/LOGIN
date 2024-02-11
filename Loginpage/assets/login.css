@@ -1,0 +1,109 @@
+body{
+    background-color: #3F301D;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    background-color: #e7decc77;
+    margin-top: 100px;
+    margin-left: 700px;
+    height: 500px;
+    width: 465px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+.login-belseje{
+    text-align: center;
+}
+
+.login-felirat{
+    color: #FFF1E6;
+}
+
+
+.login-felirat:hover{
+    transition: 1s;
+    filter: drop-shadow(5px 5px 10px white);
+}
+
+input[type="text"]{
+    padding: 10px;
+    background-color: transparent;
+    border-top:  transparent;
+    border-right:  transparent;
+    border-left: 1px solid white;
+    border-bottom: transparent;
+    color: white;
+}
+
+input[type="text"]:hover{
+    padding: 10px;
+    background-color: transparent;
+    border-top:  transparent;
+    border-right:  transparent;
+    border-left: 1px solid white;
+    border-bottom:  1px solid white;
+    background-color: darkgray;
+}
+
+
+
+input[type="password"]{
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: transparent;
+    border:  0px;
+    border-left: 1px solid white;
+}
+
+input[type="password"]:hover{
+    padding: 10px;
+    background-color: transparent;
+    border-top:  transparent;
+    border-right:  transparent;
+    border-left: 1px solid white;
+    border-bottom:  1px solid white;
+    background-color: darkgray;
+}
+
+input[type="submit"]{
+    margin: 10px 100px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 200px;
+}
+
+input[type="submit"]:hover{
+    margin: 10px 100px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 200px;
+    transition: 4s;
+    background-color: #74B72E;
+}
+
+input[type="text"]::placeholder{
+    color: rgba(255, 255, 255, 0.722);
+}
+
+input[type="password"]::placeholder{
+    color: rgba(255, 255, 255, 0.722);
+}
+
+form{
+    display: grid;
+    padding: 35px;
+}
+
+button{
+    position: absolute;
+    top: 40%;
+    left: 46.5%;
+    cursor: pointer;
+    border-radius: 2px;
+}
